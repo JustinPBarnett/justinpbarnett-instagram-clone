@@ -1,0 +1,51 @@
+.imageUpload {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+}
+
+.imageUpload img {
+  object-fit: contain;
+  width: 100%;
+  max-height: 400px;
+}
+
+.imageUpload__dropZone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  border: 2px dashed lightgray;
+  border-radius: 5px;
+  height: 200px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.imageUpload__caption {
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font: inherit;
+}
+
+.imageUpload__x {
+  width: 100%;
+  text-align: right;
+}
+.imageUpload__x span {
+  cursor: pointer;
+}
+
+.imageUpload--hidden {
+  display: none;
+}
+
+.imageUpload--hovering {
+  color: rgb(0, 157, 255);
+  border: 2px solid rgb(0, 157, 255);
+}

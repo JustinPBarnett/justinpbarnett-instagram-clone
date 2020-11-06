@@ -1,0 +1,102 @@
+.post {
+  max-width: 600px;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 3px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.post__headerUsername {
+  flex-grow: 1;
+  text-align: left;
+  font-weight: normal;
+}
+
+.post__headerDeleteButton {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  flex-grow: 0;
+}
+
+.post__avatar {
+  margin-right: 10px;
+}
+
+.post__image {
+  width: 100%;
+  object-fit: contain;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.post__actions {
+  display: flex;
+  justify-content: left;
+}
+
+.post__actions button {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.post__content {
+  padding: 10px;
+}
+
+.post__text {
+  font-weight: lighter;
+  text-align: left;
+  padding: 5px;
+}
+
+.post__text strong {
+  font-weight: normal;
+}
+
+.post__comment {
+  display: flex;
+  border-top: 1px solid lightgray;
+  padding: 10px;
+}
+
+.post__commentInput {
+  border: none;
+  flex-grow: 1;
+  outline: none;
+  padding: 10px;
+  margin: 0;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.post__commentButton {
+  color: rgb(0, 157, 255);
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.post__commentButton:disabled {
+  color: lightskyblue;
+  cursor: default;
+}
