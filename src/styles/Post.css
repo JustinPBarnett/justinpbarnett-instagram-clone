@@ -62,6 +62,7 @@
   font-weight: lighter;
   text-align: left;
   padding: 5px;
+  word-wrap: break-word;
 }
 
 .post__text strong {
